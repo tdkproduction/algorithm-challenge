@@ -1,3 +1,12 @@
+/*
+  take the str parameter being passed and modify it using the following algorithm:
+  * replace every letter in the string with the letter follwoing it in the alphabet.
+  * capitalize every vowel int the new string
+  * return the modified string
+
+*/
+
+
 function LetterChanges(str) {
   var res = [];
   var nxtChar;
